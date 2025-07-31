@@ -11,12 +11,12 @@ const ContactSection = () => {
     {
       icon: Clock,
       title: "Horário de Funcionamento",
-      details: ["[Horários serão adicionados]", "Fechado Domingos"],
+      details: ["Segunda a Sábado", "9h às 19h"],
     },
     {
       icon: Phone,
-      title: "Contacto",
-      details: ["[Número será adicionado]", "WhatsApp disponível"],
+      title: "Marcações",
+      details: ["Via Instagram", "ou presencialmente"],
     },
     {
       icon: Instagram,
@@ -68,14 +68,14 @@ const ContactSection = () => {
               Marca já o teu corte
             </h3>
             <p className="text-cream/80 text-lg mb-8 max-w-2xl mx-auto">
-              Não percas tempo! Liga-nos agora ou envia uma mensagem para garantires o teu horário preferido.
+              Visita-nos em César, Oliveira de Azeméis ou segue-nos no Instagram para marcares o teu horário.
             </p>
             <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
               <Button variant="hero" size="lg">
-                Ligar Agora
+                Instagram
               </Button>
               <Button variant="outline" size="lg" className="border-cream text-cream hover:bg-cream hover:text-charcoal">
-                WhatsApp
+                Visitar Loja
               </Button>
             </div>
           </div>

@@ -4,27 +4,23 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Scissors,
-      title: "Corte Clássico",
-      description: "[Descrição do serviço será adicionada]",
-      price: "€XX"
+      title: "Corte clássico ou moderno",
+      description: "Cortes personalizados ao teu estilo e preferência",
     },
     {
       icon: Users,
-      title: "Barba & Bigode",
-      description: "[Descrição do serviço será adicionada]",
-      price: "€XX"
+      title: "Desenho e corte de barba",
+      description: "Modelagem profissional para todos os tipos de barba",
     },
     {
       icon: Clock,
-      title: "Corte + Barba",
-      description: "[Descrição do serviço será adicionada]",
-      price: "€XX"
+      title: "Aparos e retoques",
+      description: "Manutenção rápida para manter o teu visual sempre em dia",
     },
     {
       icon: Star,
-      title: "Tratamento Premium",
-      description: "[Descrição do serviço será adicionada]",
-      price: "€XX"
+      title: "Cuidados de styling",
+      description: "Finalização e produtos para o teu look perfeito",
     }
   ];
 
@@ -35,7 +31,7 @@ const ServicesSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              Serviços
+              Os nossos serviços
             </h2>
             <div className="w-24 h-1 bg-gradient-wood mx-auto mb-6"></div>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -62,9 +58,6 @@ const ServicesSection = () => {
                     <p className="text-muted-foreground mb-4 leading-relaxed">
                       {service.description}
                     </p>
-                    <div className="text-2xl font-bold text-wood">
-                      {service.price}
-                    </div>
                   </div>
                 </div>
               );
@@ -73,14 +66,14 @@ const ServicesSection = () => {
 
           {/* Call to Action */}
           <div className="text-center mt-12">
-            <p className="text-muted-foreground mb-6">
-              Pronto para o teu próximo corte?
+            <p className="text-muted-foreground mb-6 text-lg font-medium">
+              Preços justos, serviço de excelência.
             </p>
             <a 
               href="#contactos"
               className="inline-block px-8 py-3 bg-charcoal text-cream rounded-lg hover:bg-charcoal-light transition-colors font-semibold"
             >
-              Ver Horários Disponíveis
+              Marca já o teu corte
             </a>
           </div>
         </div>
