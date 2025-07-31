@@ -16,22 +16,24 @@ const AboutSection = () => {
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-primary">
-                Tradição e Modernidade
+                A Nossa História
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                [Espaço para texto sobre a barbearia e os dois irmãos que a fundaram. 
-                História, experiência e dedicação ao craft.]
+                A Paiva's Barber nasceu da vontade de dois irmãos em criar um espaço moderno, 
+                acessível e de confiança. Com mais de dois anos ao serviço da comunidade de 
+                César, Oliveira de Azeméis, oferecemos cortes de cabelo e barbas com 
+                profissionalismo e atenção ao detalhe.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                [Texto sobre a filosofia da barbearia, qualidade do serviço e 
-                ambiente acolhedor em César, Oliveira de Azeméis.]
+                Aqui cada cliente é bem-vindo. Trabalhamos com gosto e dedicação para que 
+                te sintas bem com o teu estilo.
               </p>
             </div>
 
             {/* Stats/Features */}
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-card rounded-lg shadow-soft">
-                <div className="text-3xl font-bold text-primary mb-2">5+</div>
+                <div className="text-3xl font-bold text-primary mb-2">2+</div>
                 <div className="text-muted-foreground">Anos de Experiência</div>
               </div>
               <div className="text-center p-6 bg-card rounded-lg shadow-soft">

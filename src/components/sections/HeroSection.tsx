@@ -15,10 +15,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-cream max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Paiva's Barber
+          Corte com estilo. Confiança garantida.
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-cream/90 max-w-2xl mx-auto">
-          Barbearia moderna em César, Oliveira de Azeméis
+          Na Paiva's Barber, cada corte é feito com precisão, dedicação e atenção ao detalhe.
         </p>
         <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
           <Button variant="hero" size="lg">
