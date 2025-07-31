@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoImage from "@/assets/paivas-barber-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,13 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">Paiva's Barber</h1>
+            <a href="#inicio" className="block">
+              <img 
+                src={logoImage} 
+                alt="Paiva's Barber Logótipo" 
+                className="h-8 md:h-10 w-auto transition-opacity hover:opacity-80"
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
