@@ -14,7 +14,7 @@ const AboutSection = () => {
           </div>
 
           {/* Content Grid */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-primary">
