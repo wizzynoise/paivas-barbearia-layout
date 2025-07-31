@@ -1,4 +1,6 @@
 import { Scissors, Users, Clock, Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import ServicesImage from "./ServicesImage";
 
 const ServicesSection = () => {
   const services = [
@@ -65,29 +67,18 @@ const ServicesSection = () => {
           </div>
 
           {/* Services Image */}
-          <div className="text-center mt-16">
-            <div className="max-w-md mx-auto">
-              <div className="relative rounded-lg overflow-hidden shadow-elegant">
-                <img 
-                  src="/src/assets/clipper-detail.jpg" 
-                  alt="Equipamento profissional de barbeiro"
-                  className="w-full h-48 object-cover"
-                />
-              </div>
-            </div>
-          </div>
+          <ServicesImage />
 
           {/* Call to Action */}
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-6 text-lg font-medium">
               Preços justos, serviço de excelência.
             </p>
-            <a 
-              href="#contactos"
-              className="inline-block px-8 py-3 bg-charcoal text-cream rounded-lg hover:bg-charcoal-light transition-colors font-semibold"
-            >
-              Marca já o teu corte
-            </a>
+            <Button variant="cta" size="lg" asChild>
+              <a href="#contactos">
+                Marca já o teu corte
+              </a>
+            </Button>
           </div>
         </div>
       </div>

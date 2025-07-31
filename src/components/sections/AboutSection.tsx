@@ -1,4 +1,4 @@
-import toolsImage from "@/assets/barber-tools-hands.jpg";
+import AboutSectionImage from "./AboutSectionImage";
 
 const AboutSection = () => {
   return (
@@ -33,15 +33,7 @@ const AboutSection = () => {
             </div>
 
             {/* Image Section */}
-            <div className="relative">
-              <div className="relative rounded-lg overflow-hidden shadow-elegant">
-                <img 
-                  src={toolsImage} 
-                  alt="Preparação de ferramentas de barbeiro"
-                  className="w-full h-64 md:h-96 object-cover"
-                />
-              </div>
-            </div>
+            <AboutSectionImage />
           </div>
 
           {/* Stats Section */}
