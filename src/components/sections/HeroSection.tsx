@@ -24,7 +24,7 @@ const HeroSection = () => {
           <Button variant="hero" size="lg">
             Marcar Agora
           </Button>
-          <Button variant="outline" size="lg" className="border-cream text-cream hover:bg-cream hover:text-charcoal">
+          <Button variant="cta" size="lg">
             Ver Serviços
           </Button>
         </div>
