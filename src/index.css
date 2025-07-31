@@ -8,52 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Barbershop color palette - modern masculine tones */
-    --background: 30 8% 95%;
-    --foreground: 20 14% 8%;
+    /* Clean modern barbershop palette */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
 
-    --card: 30 8% 98%;
-    --card-foreground: 20 14% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
 
-    --popover: 30 8% 98%;
-    --popover-foreground: 20 14% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
 
-    /* Rich charcoal as primary */
-    --primary: 20 14% 8%;
-    --primary-foreground: 30 8% 95%;
+    /* Black as primary */
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Warm wood tone as secondary */
-    --secondary: 25 35% 85%;
-    --secondary-foreground: 20 14% 8%;
+    /* Dark gray as secondary */
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 15% 92%;
-    --muted-foreground: 25 8% 45%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
     /* Warm wood accent */
-    --accent: 28 45% 72%;
-    --accent-foreground: 20 14% 8%;
+    --accent: 30 40% 60%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 30 8% 95%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 25 15% 88%;
-    --input: 25 15% 88%;
-    --ring: 20 14% 8%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 0%;
 
     /* Custom barbershop tokens */
-    --wood: 28 45% 72%;
-    --wood-dark: 25 35% 65%;
-    --charcoal: 20 14% 8%;
-    --charcoal-light: 20 10% 15%;
-    --cream: 30 8% 95%;
+    --wood: 30 40% 60%;
+    --wood-dark: 25 30% 45%;
+    --charcoal: 0 0% 0%;
+    --charcoal-light: 0 0% 20%;
+    --cream: 0 0% 100%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--charcoal)), hsl(var(--charcoal-light)));
-    --gradient-wood: linear-gradient(135deg, hsl(var(--wood)), hsl(var(--wood-dark)));
+    --gradient-hero: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(51,51,51,0.6));
+    --gradient-wood: linear-gradient(135deg, hsl(30, 40%, 60%), hsl(25, 30%, 45%));
     
     /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(var(--charcoal) / 0.3);
-    --shadow-soft: 0 4px 16px -4px hsl(var(--charcoal) / 0.15);
+    --shadow-elegant: 0 10px 30px -10px rgba(0,0,0,0.2);
+    --shadow-soft: 0 4px 16px -4px rgba(0,0,0,0.08);
 
     --radius: 0.5rem;
 
@@ -75,33 +75,40 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 9%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 30 35% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+
+    /* Custom barbershop tokens for dark mode */
+    --wood: 30 35% 50%;
+    --wood-dark: 25 25% 35%;
+    --charcoal: 0 0% 9%;
+    --charcoal-light: 0 0% 20%;
+    --cream: 0 0% 98%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

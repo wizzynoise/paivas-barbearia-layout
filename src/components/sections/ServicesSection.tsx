@@ -64,6 +64,19 @@ const ServicesSection = () => {
             })}
           </div>
 
+          {/* Services Image */}
+          <div className="text-center mt-16">
+            <div className="max-w-md mx-auto">
+              <div className="relative rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/src/assets/clipper-detail.jpg" 
+                  alt="Equipamento profissional de barbeiro"
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
           {/* Call to Action */}
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-6 text-lg font-medium">

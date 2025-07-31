@@ -12,7 +12,7 @@ const AboutSection = () => {
           </div>
 
           {/* Content Grid */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-primary">
@@ -30,24 +30,35 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Stats/Features */}
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-6 bg-card rounded-lg shadow-soft">
-                <div className="text-3xl font-bold text-primary mb-2">2+</div>
-                <div className="text-muted-foreground">Anos de Experiência</div>
+            {/* Image Section */}
+            <div className="relative">
+              <div className="relative rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/src/assets/barber-tools-hands.jpg" 
+                  alt="Preparação de ferramentas de barbeiro"
+                  className="w-full h-64 md:h-96 object-cover"
+                />
               </div>
-              <div className="text-center p-6 bg-card rounded-lg shadow-soft">
-                <div className="text-3xl font-bold text-primary mb-2">2</div>
-                <div className="text-muted-foreground">Barbeiros Profissionais</div>
-              </div>
-              <div className="text-center p-6 bg-card rounded-lg shadow-soft">
-                <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                <div className="text-muted-foreground">Satisfação</div>
-              </div>
-              <div className="text-center p-6 bg-card rounded-lg shadow-soft">
-                <div className="text-3xl font-bold text-primary mb-2">Local</div>
-                <div className="text-muted-foreground">César, O. Azeméis</div>
-              </div>
+            </div>
+          </div>
+
+          {/* Stats Section */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+            <div className="text-center p-6 bg-card rounded-lg shadow-soft">
+              <div className="text-3xl font-bold text-primary mb-2">2+</div>
+              <div className="text-muted-foreground">Anos de Experiência</div>
+            </div>
+            <div className="text-center p-6 bg-card rounded-lg shadow-soft">
+              <div className="text-3xl font-bold text-primary mb-2">2</div>
+              <div className="text-muted-foreground">Barbeiros Profissionais</div>
+            </div>
+            <div className="text-center p-6 bg-card rounded-lg shadow-soft">
+              <div className="text-3xl font-bold text-primary mb-2">100%</div>
+              <div className="text-muted-foreground">Satisfação</div>
+            </div>
+            <div className="text-center p-6 bg-card rounded-lg shadow-soft">
+              <div className="text-3xl font-bold text-primary mb-2">Local</div>
+              <div className="text-muted-foreground">César, O. Azeméis</div>
             </div>
           </div>
         </div>
