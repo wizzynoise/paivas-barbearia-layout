@@ -1,0 +1,92 @@
+import { Scissors, Users, Clock, Star } from "lucide-react";
+
+const ServicesSection = () => {
+  const services = [
+    {
+      icon: Scissors,
+      title: "Corte Clássico",
+      description: "[Descrição do serviço será adicionada]",
+      price: "€XX"
+    },
+    {
+      icon: Users,
+      title: "Barba & Bigode",
+      description: "[Descrição do serviço será adicionada]",
+      price: "€XX"
+    },
+    {
+      icon: Clock,
+      title: "Corte + Barba",
+      description: "[Descrição do serviço será adicionada]",
+      price: "€XX"
+    },
+    {
+      icon: Star,
+      title: "Tratamento Premium",
+      description: "[Descrição do serviço será adicionada]",
+      price: "€XX"
+    }
+  ];
+
+  return (
+    <section id="servicos" className="py-20 bg-muted/30">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+              Serviços
+            </h2>
+            <div className="w-24 h-1 bg-gradient-wood mx-auto mb-6"></div>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Oferecemos uma gama completa de serviços de barbearia com técnicas modernas e tradicionais
+            </p>
+          </div>
+
+          {/* Services Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {services.map((service, index) => {
+              const IconComponent = service.icon;
+              return (
+                <div 
+                  key={index}
+                  className="group bg-card p-6 rounded-lg shadow-soft hover:shadow-elegant transition-all duration-300 hover:-translate-y-1"
+                >
+                  <div className="text-center">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-wood/10 rounded-full mb-4 group-hover:bg-wood/20 transition-colors">
+                      <IconComponent className="w-8 h-8 text-wood" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-primary mb-3">
+                      {service.title}
+                    </h3>
+                    <p className="text-muted-foreground mb-4 leading-relaxed">
+                      {service.description}
+                    </p>
+                    <div className="text-2xl font-bold text-wood">
+                      {service.price}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-12">
+            <p className="text-muted-foreground mb-6">
+              Pronto para o teu próximo corte?
+            </p>
+            <a 
+              href="#contactos"
+              className="inline-block px-8 py-3 bg-charcoal text-cream rounded-lg hover:bg-charcoal-light transition-colors font-semibold"
+            >
+              Ver Horários Disponíveis
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ServicesSection;

@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				/* Custom barbershop colors */
+				wood: 'hsl(var(--wood))',
+				'wood-dark': 'hsl(var(--wood-dark))',
+				charcoal: 'hsl(var(--charcoal))',
+				'charcoal-light': 'hsl(var(--charcoal-light))',
+				cream: 'hsl(var(--cream))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-wood': 'var(--gradient-wood)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'soft': 'var(--shadow-soft)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
