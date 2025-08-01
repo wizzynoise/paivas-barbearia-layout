@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# Paiva's Barber - Website Oficial
 
-## Project info
+Barbearia moderna e profissional localizada em César, Oliveira de Azeméis.
 
-**URL**: https://lovable.dev/projects/3ec99705-9031-434b-a79a-fc8d30843d6b
+## Sobre o Projeto
 
-## How can I edit this code?
+Website oficial da Paiva's Barber, desenvolvido para apresentar os nossos serviços de barbearia premium e permitir que os clientes conheçam melhor o nosso trabalho.
 
-There are several ways of editing your application.
+## Funcionalidades
 
-**Use Lovable**
+- Design responsivo para todos os dispositivos
+- Apresentação dos serviços oferecidos
+- Informações de contacto e localização
+- Galeria de trabalhos realizados
+- Integração com redes sociais
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3ec99705-9031-434b-a79a-fc8d30843d6b) and start prompting.
+## Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Router
 
-**Use your preferred IDE**
+## Desenvolvimento Local
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Para executar o projeto localmente:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Instalar dependências
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Executar o servidor de desenvolvimento
 npm run dev
+
+# Compilar para produção
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Este projeto está organizado com:
 
-**Use GitHub Codespaces**
+- `/src/components` - Componentes React reutilizáveis
+- `/src/pages` - Páginas da aplicação
+- `/src/assets` - Imagens e recursos estáticos
+- `/public` - Ficheiros públicos
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contacto
 
-## What technologies are used for this project?
+**Paiva's Barber**
+César, Oliveira de Azeméis
+Instagram: @paivas.barber
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3ec99705-9031-434b-a79a-fc8d30843d6b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2024 Paiva's Barber. Todos os direitos reservados.
